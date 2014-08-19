@@ -31,6 +31,7 @@ ReactiveTableHack = {
     }
   },
   blurDateEvent: function(event, template, name){
+    // console.log('blurDateEvent');
     // console.log('name: ' + name);
     // console.log('event.target.value: ' + event.target.value );
     event.preventDefault();
@@ -38,7 +39,6 @@ ReactiveTableHack = {
     event.stopImmediatePropagation();
     // console.log('blur #end_date');
     Session.set(name, moment(event.target.value).format('MM/DD/YYYY'));
-    
   }
 }
 
