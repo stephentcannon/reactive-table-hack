@@ -3,7 +3,7 @@
   "description": "reactive table hack package",
   "homepage": "https://github.com/stephentcannon/reactive-table-hack",
   "author": "EtherPOS (http://www.etherpos.com)",
-  "version": "0.0.2",
+  "version": "0.3.5",
   "git": "https://github.com/stephentcannon/reactive-table-hack",
   "packages": {}
 }
