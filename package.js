@@ -1,9 +1,15 @@
 Package.describe({
-  summary: "reactive-table-hack"
+  summary: "reactive-table-hack",
+  // Version number.
+  version: "0.4.6",
+  // Optional.  Default is package directory name.
+  name: "steeve:reactive-table-hack",
+  // Optional github URL to your source repository.
+  git: "https://github.com/stephentcannon/reactive-table-hack.git"
 });
 
-Package.on_use(function (api, where) {
-  api.add_files([
+Package.onUse(function (api) {
+  api.addFiles([
     'reactivetablehack.js',
     ],
   'client');
