@@ -1,7 +1,7 @@
 Package.describe({
   summary: "reactive-table-hack",
   // Version number.
-  version: "0.4.7",
+  version: "0.4.8",
   // Optional.  Default is package directory name.
   name: "steeve:reactive-table-hack",
   // Optional github URL to your source repository.
